@@ -1,5 +1,5 @@
 # Kruskal-s-algorithm
-# Part (a): Write all required algorithms for MST using Kruskal's Algorithm
+## Part (a): Write all required algorithms for MST using Kruskal's Algorithm
 
       1)Key Components of Kruskal’s Algorithm:
           → Graph Representation: Define the graph using an edge list where each edge includes (source, destination, weight).
@@ -37,7 +37,7 @@
             UNION(u, v)
         return A
 
-# Part(b). Analyze in detail your written algorithms in Part (a)
+## Part(b). Analyze in detail your written algorithms in Part (a)
           ►Time complexity analysis
              1)Time Complexity:
                 T(n) = O(1) + O(V) + O(E log E) + O(V log V)
