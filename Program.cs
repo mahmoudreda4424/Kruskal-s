@@ -108,6 +108,16 @@ class Graph
             Console.WriteLine($"Src {edge.Src}  --> Dest {edge.Dest} == Weight {edge.Weight}");
             
         }
+
+        int minimumCost = 0;
+        for (i = 0; i < edgeCount; ++i)
+        {
+            minimumCost += result[i].Weight;
+        }
+        Console.WriteLine(" ");
+        Console.ForegroundColor = ConsoleColor.Red;
+
+        Console.WriteLine("Minimum Cost Spanning Tree (MST): " + minimumCost);
         Console.ForegroundColor = ConsoleColor.White;
     }
 }
